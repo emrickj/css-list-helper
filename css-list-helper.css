@@ -1,0 +1,48 @@
+ol.upper-roman {list-style-type: upper-roman;}
+ol.lower-roman {list-style-type: lower-roman;}
+ol.upper-latin {list-style-type: upper-latin;}
+ol.lower-latin {list-style-type: lower-latin;}
+
+ol.decimal, ul.check, ul.check-white, ul.star, ul.star-o {
+    list-style: none;
+    padding: 0;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+}
+ol.decimal li, ul.check li, ul.check-white li, ul.star li, ul.star-o li { 
+    padding-left: 16px; 
+}
+ol.decimal li:before { 
+    padding-right: 8px;
+    font-size: 1.33333333em;
+    line-height: .75em;
+    vertical-align: -15%; 
+}
+ol.decimal.circle-o li:nth-child(1):before {content: "➀";}
+ol.decimal.circle-o li:nth-child(2):before {content: "➁";}
+ol.decimal.circle-o li:nth-child(3):before {content: "➂";}
+ol.decimal.circle-o li:nth-child(4):before {content: "➃";}
+ol.decimal.circle-o li:nth-child(5):before {content: "➄";}
+ol.decimal.circle-o li:nth-child(6):before {content: "➅";}
+ol.decimal.circle-o li:nth-child(7):before {content: "➆";}
+ol.decimal.circle-o li:nth-child(8):before {content: "➇";}
+ol.decimal.circle-o li:nth-child(9):before {content: "➈";}
+ol.decimal.circle-o li:nth-child(10):before {content: "➉";}
+
+ol.decimal.circle li:nth-child(1):before {content: "➊";}
+ol.decimal.circle li:nth-child(2):before {content: "➋";}
+ol.decimal.circle li:nth-child(3):before {content: "➌";}
+ol.decimal.circle li:nth-child(4):before {content: "➍";}
+ol.decimal.circle li:nth-child(5):before {content: "➎";}
+ol.decimal.circle li:nth-child(6):before {content: "➏";}
+ol.decimal.circle li:nth-child(7):before {content: "➐";}
+ol.decimal.circle li:nth-child(8):before {content: "➑";}
+ol.decimal.circle li:nth-child(9):before {content: "➒";}
+ol.decimal.circle li:nth-child(10):before {content: "➓";}
+
+ul.check li:before {padding-right: 8px;content: "✔";}
+ul.check-white li:before {padding-right: 8px;content: "✅︎";}
+ul.star li:before {padding-right: 8px;content: "★";}
+ul.star-o li:before {padding-right: 8px;content: "☆";}
