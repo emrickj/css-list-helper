@@ -1,3 +1,7 @@
+---
+---
+$ch-pad-right: 16px;
+
 ol.upper-roman {list-style-type: upper-roman;}
 ol.lower-roman {list-style-type: lower-roman;}
 ol.upper-latin {list-style-type: upper-latin;}
@@ -15,7 +19,7 @@ ol.decimal li, ul.check li, ul.check-white li, ul.star li, ul.star-o li {
     padding-left: 16px; 
 }
 ol.decimal li:before { 
-    padding-right: 8px;
+    padding-right: $ch-pad-right;
     font-size: 1.33333333em;
     line-height: .75em;
     vertical-align: -15%; 
@@ -42,7 +46,7 @@ ol.decimal.circle li:nth-child(8):before {content: "➑";}
 ol.decimal.circle li:nth-child(9):before {content: "➒";}
 ol.decimal.circle li:nth-child(10):before {content: "➓";}
 
-ul.check li:before {padding-right: 8px;content: "✔";}
-ul.check-white li:before {padding-right: 8px;content: "✅︎";}
-ul.star li:before {padding-right: 8px;content: "★";}
-ul.star-o li:before {padding-right: 8px;content: "☆";}
+ul.check li:before {padding-right: $ch-pad-right;content: "✔";}
+ul.check-white li:before {padding-right: $ch-pad-right;content: "✅︎";}
+ul.star li:before {padding-right: $ch-pad-right;content: "★";}
+ul.star-o li:before {padding-right: $ch-pad-right;content: "☆";}
